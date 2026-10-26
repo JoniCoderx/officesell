@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   var MODE = document.body.getAttribute('data-mode') === 'admin' ? 'admin' : 'view';
-  var REPO = 'JoniCoderx/officesell', FILE = 'data.json', BRANCH = 'main';
+  var REPO = 'JoniCoderx/officesell', FILE = 'data.json', BRANCH = 'gh-pages';
   var API = 'https://api.github.com/repos/' + REPO + '/contents/' + FILE;
   var TOKEN_KEY = 'officesell-token';
   var CATS = ['מחשוב', 'טלוויזיות ומדיה', 'ריהוט', 'מטבח', 'חדר כושר'];
